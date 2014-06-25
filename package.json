@@ -1,0 +1,43 @@
+{
+  "name": "gulp-clip-empty-files",
+  "version": "0.1.0",
+  "description": "Clip empty files from stream.",
+  "license": "MIT",
+  "repository": "nahody/gulp-clip-empty-files",
+  "author": {
+    "name": "Jan Nahody",
+    "email": "jan.nahody@gmail.com",
+    "url": "http://nahody.com"
+  },
+  "maintainers": [
+    {
+      "name": "Jan Nahody",
+      "email": "jan.nahody@gmail.com",
+      "url": "http://nahody.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "file",
+    "stream",
+    "remove",
+    "delete",
+    "clip"
+  ],
+  "dependencies": {
+    "through2": "~0.5.1"
+  },
+  "devDependencies": {
+    "gulp-util": "~2.2.9",
+    "mocha": "*"
+  }
+}
