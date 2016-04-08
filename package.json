@@ -1,6 +1,6 @@
 {
   "name": "gulp-clip-empty-files",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Clip empty files from stream.",
   "license": "MIT",
   "repository": "nahody/gulp-clip-empty-files",
@@ -34,7 +34,7 @@
     "clip"
   ],
   "dependencies": {
-    "through2": "~0.6.1"
+    "through2": "~2.0.1"
   },
   "devDependencies": {
     "gulp-util": "~3.0.1",
